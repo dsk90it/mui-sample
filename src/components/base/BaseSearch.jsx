@@ -9,6 +9,7 @@ const SearchWrapper = styled('div')(({ theme }) => ({
 
   '&.is-dark': {
     backgroundColor: alpha(theme.palette.common.black, 0.5),
+    border: 0,
 
     '.MuiInputBase-input': {
       color: theme.palette.common.white,
