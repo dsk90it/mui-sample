@@ -12,10 +12,12 @@ function NavBar({ userImage, userName }) {
         sx={{
           display: 'flex',
           alignItems: 'center',
+          justifyContent: 'space-between',
           marginLeft: { sm: 'auto' },
         }}
       >
         <BaseSearch handleChange={(e) => console.log(e.target.value)} isDark />
+
         <Toolbar
           sx={{
             paddingRight: '0 !important',

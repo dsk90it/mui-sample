@@ -36,7 +36,11 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   '& .MuiInputBase-input': {
     width: '100%',
     padding: theme.spacing(0.5, 4, 0.5, 1),
+  },
+
+  '& .MuiInputBase-input::placeholder': {
     fontStyle: 'italic',
+    opacity: 1,
   },
 }))
 
